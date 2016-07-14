@@ -7,4 +7,5 @@ In this two exercises we want to test your HTML + CSS skills. We know that respo
 - **[Level 2](https://github.com/worona/selection-test-01/tree/master/layout/level%202):** Create your own design.
 
 
- >Remember you can use [pages.github.io](https://pages.github.com/) to see a live preview of your code.
+
+ > Remember you can use [pages.github.io](https://pages.github.com/) to see a live preview of your code.
