@@ -24,7 +24,6 @@ Now you have to follow the same specifications than in level 1.
 - The *Display gadget posts* button should fetch the first 5 posts of the category **gadgets** from [govoid.es](http://www.govoid.es).
 - The API endpoint is http://www.govoid.es/wp-json/posts.
 - The API documentation is http://v2.wp-api.org/.
-- You can use whatever you want to fetch the content, for example [jQuery ajax](http://api.jquery.com/jquery.ajax/), [fetch](https://developer.mozilla.org/en/docs/Web/API/Fetch_API), [wordpress-rest-api](https://www.npmjs.com/package/wordpress-rest-api)...
 - Once fetched, you should display the titles in a list. A new fetch (using the other button) should replace those titles.
 
 This is welcomed, but not required:
