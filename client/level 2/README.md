@@ -20,9 +20,9 @@ Now you have to follow the same specifications than in level 1.
 - On the top of the screen, it has to render two buttons:
   - **Display all posts**
   - **Display gadgets posts**
-- The *Display all posts* button should fetch the first 5 posts from [govoid.es](http://www.govoid.es).
-- The *Display gadget posts* button should fetch the first 5 posts of the category **gadgets** from [govoid.es](http://www.govoid.es).
-- The API endpoint is http://www.govoid.es/wp-json/posts.
+- The *Display all posts* button should fetch the first 5 posts from [demo.worona.org](https://demo.worona.org).
+- The *Display gadget posts* button should fetch the first 5 posts of the category **gadgets** from [demo.worona.org](http://www.govoid.es).
+- The API endpoint is https://demo.worona.org/wp-json/wp/v2/posts.
 - The API documentation is http://v2.wp-api.org/.
 - Once fetched, you should display the titles in a list. A new fetch (using the other button) should replace those titles.
 
