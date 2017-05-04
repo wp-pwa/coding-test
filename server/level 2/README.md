@@ -18,19 +18,13 @@ Using node and express, you have to create a small server with the following spe
 In order to use promises or async functions in express you need to wrap them with this function
 
 ```javascript
-const Promise = require('bluebird')
-function wrap (genFn) {
-    const cr = Promise.coroutine(genFn);
-    return function (req, res, next) {
-        cr(req, res, next).catch(next);
-    }
-}
+const wrap = fn => (...args) => fn(...args).catch(args[2]);
 ```
 
 Then, simply do:
 
 ```javascript
-app.get('/your-endpoint', wrap(async function (req, res) {
+app.get('/your-endpoint', wrap(async (req, res) => {
   const data = await getData();
 }));
 ```
